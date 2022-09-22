@@ -1,0 +1,91 @@
+/* removed the extra space between the side of the border and the side of the browser */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-height: 1200px;
+}
+body{
+    background-color: rgb(127, 90, 131);
+}
+.header-center{
+    display: flex;
+    justify-content: center;
+    
+}
+header{
+    width: 95%;
+    height: 80px;
+    background-color: rgb(161, 136, 166);
+    border-radius: 0px 0px 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center-square{
+    width: 80%;
+    height: 1000px;
+    border-radius: 30px;
+    background-color: rgb(161, 136, 166);
+    margin-bottom: 100px;
+}
+.box-centering{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.timer-holder{
+    width: 15%;
+    height: 50px;
+    background-color: rgb(157, 162, 171);
+    border-radius: 30px 0px 30px 0px;
+    margin: 0px;
+}
+.answer-box, .question-box{
+    width: 70%;
+    height: 400px;
+    border-radius: 30px;
+    background-color: rgb(13, 50, 77);
+    margin: 20px;
+    align-items: center;
+    display: flex;
+}
+.question-box{
+    flex-direction: column;
+    display: flex;
+}
+.mini-question-box{
+    border-radius: 0px 0px 30px 30px;
+    height: 40px;
+    background-color: black;
+    color: rgb(157, 162, 171);
+    width: 200px;
+    display: flex;
+    contain: content;
+    justify-content: center;
+    align-items: center;
+}
+.question-text{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.multi-choice{
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.multi-choice li{
+    color: rgb(157, 162, 171);
+    margin: 30px;
+}
