@@ -60,6 +60,9 @@ main{
 .question-box{
     flex-direction: column;
     display: flex;
+    justify-content: center;
+    /*any childern elements wilth absolute will be based from the parent container rather the top of the page*/
+    position: relative;
 }
 .mini-question-box{
     border-radius: 0px 0px 30px 30px;
@@ -67,6 +70,8 @@ main{
     background-color: black;
     color: rgb(157, 162, 171);
     width: 200px;
+    position: absolute;
+    top: 0%;
     display: flex;
     contain: content;
     justify-content: center;
@@ -76,7 +81,10 @@ main{
     font-size: 30px;
     color: black;
     font-weight: bold;
-    margin-top: 100px;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    padding: 15px;
 }
 .multi-choice{
     list-style: none;
