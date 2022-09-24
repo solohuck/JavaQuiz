@@ -3,7 +3,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    max-height: 1200px;
 }
 body{
     background-color: rgb(127, 90, 131);
@@ -47,6 +46,25 @@ main{
     background-color: rgb(157, 162, 171);
     border-radius: 30px 0px 30px 0px;
     margin: 0px;
+}
+.timer-text{
+    font-size: 25px;
+    color: rgb(13, 50, 77);
+    font-weight: bolder;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    padding: 10px;
+}
+.start-button{
+    font-size: 25px;
+    color: rgb(13, 50, 77);
+    font-weight: bolder;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
 }
 .answer-box, .question-box{
     width: 70%;
@@ -96,4 +114,17 @@ main{
 .multi-choice li{
     color: rgb(157, 162, 171);
     margin: 30px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+.bottom-footer{
+    width: 95%;
+    height: 80px;
+    background-color: rgb(161, 136, 166);
+    border-radius: 30px 30px 0px 0px;
+    /* sticky footer: position absolute; right: 0;bottom: 0;left: 0; will allow the footer to stay at the bottom of the page no matter what */
+    position: absolute;
+    bottom: 0;
 }

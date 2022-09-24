@@ -16,18 +16,20 @@
 
   <main>
       <div class="center-square">
-        <div class="timer-holder"></div>
+        <div id="timer" class="timer-holder">
+          <p class="timer-text timer-count start-button">start</p>
+        </div>
         <div class="box-centering">
           <div class="question-box">
             <h2 class="mini-question-box">Question</h2>
-            <p class="question-text">The queston will go here but will be replaced with javascript.</p>
+            <p id="question" class="question-text">The queston will go here but will be replaced with javascript.</p>
           </div>
           <div class="answer-box">
             <ul class="multi-choice">
-              <li>A:</li>
-              <li>B:</li>
-              <li>C:</li>
-              <li>D:</li>
+              <li id="choice-a">A:</li>
+              <li id="choice-b">B:</li>
+              <li id="choice-c">C:</li>
+              <li id="choice-d">D:</li>
             </ul>
           </div>
         </div>
@@ -37,5 +39,8 @@
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script type="text/javascript" src="./develop/script.js"></script>
 </body>
+<footer>
+  <div class="bottom-footer"></div>
+</footer>
 
 </html>
