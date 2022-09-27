@@ -17,19 +17,19 @@
   <main>
       <div class="center-square">
         <div id="timer" class="timer-holder">
-          <p class="timer-text timer-count start-button">start</p>
+          <p class="timer-count start-button">start</p>
         </div>
         <div class="box-centering">
           <div class="question-box">
             <h2 class="mini-question-box">Question</h2>
-            <p id="question" class="question-text">The queston will go here but will be replaced with javascript.</p>
+            <div class="question-text">Question</div>
           </div>
           <div class="answer-box">
             <ul class="multi-choice">
-              <li id="choice-a">A:</li>
-              <li id="choice-b">B:</li>
-              <li id="choice-c">C:</li>
-              <li id="choice-d">D:</li>
+              <li>A:<div class="choice-a answer-select">this answer A</div></li>
+              <li>B:<div class="choice-b answer-select">this answer B</div></li>
+              <li>C:<div class="choice-c answer-select">this answer C </div></li>
+              <li>D:<div class="choice-d answer-select">this answer D</div></li>
             </ul>
           </div>
         </div>
@@ -40,7 +40,10 @@
   <script type="text/javascript" src="./develop/script.js"></script>
 </body>
 <footer>
-  <div class="bottom-footer"></div>
+  <div class="bottom-footer">
+    <div class="score"><h2>High Score:</h2></div>
+    <div class="initials"><h2>initials:</h2></div>
+  </div>
 </footer>
 
 </html>
